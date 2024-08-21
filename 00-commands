@@ -1,0 +1,11 @@
+  name space
+
+kubectl get pods -n expense   -  to get expense pods list
+
+kubens install
+
+sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+
+
+after install run   kubens expense  u will swith to that namesapce 
