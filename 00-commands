@@ -8,4 +8,4 @@ sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
 
-after install run   kubens expense  u will swith to that namesapce 
+after install run   kubens expense  --- u will swith to that namesapce 
