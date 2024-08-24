@@ -9,3 +9,10 @@ sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
 
 after install run   kubens expense  --- u will swith to that namesapce 
+
+
+---------------------
+ebs eks drivers install
+--------------------------
+
+kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.34"
